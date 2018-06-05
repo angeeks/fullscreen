@@ -1,0 +1,21 @@
+notifications:
+  slack: $slack
+sudo: required
+language: node_js
+node_js:
+    - "9.7.1"
+install:
+  - npm i
+script:
+  - npx ng lint
+  - npx ng test fullscreen --watch=false
+  - npx ng build fullscreen --prod --base-href fullscreen
+cache:
+    directories:
+      - node_modules
+deploy:
+  - provider: pages
+    local-dir: dist/fullscreen
+    github-token: $github
+    skip-cleanup: true
+    keep-history: true
