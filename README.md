@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/angeeks/fullscreen.svg?branch=master)](https://travis-ci.org/angeeks/fullscreen)
 [![npm version](https://badge.fury.io/js/%40angeeks%2Ffullscreen.svg)](https://www.npmjs.com/package/@angeeks/fullscreen)
 
-A wrapper of `[screenfull](screenfull)` for Angular.
+A wrapper of [screenfull](sindresorhus/screenfull.js) for Angular.
 
 # Installation
 

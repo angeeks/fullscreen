@@ -1,0 +1,11 @@
+:host {
+  .wrap.full {
+    width: 100%;
+    display: flex;
+  }
+  ngk-md {
+    display: block;
+    padding: 42px 10%;
+    @import 'github-markdown-css/github-markdown.css';
+  }
+}

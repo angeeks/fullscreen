@@ -8,6 +8,8 @@ install:
   - npm i
 script:
   - npx ng lint
+  - npx ng test @angeeks/fullscreen --watch=false
+  - npx ng build @angeeks/fullscreen --prod
   - npx ng test fullscreen --watch=false
   - npx ng build fullscreen --prod --base-href fullscreen
 cache:

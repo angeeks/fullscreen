@@ -1,0 +1,25 @@
+{
+  "name": "@angeeks/fullscreen",
+  "version": "0.0.1",
+  "description": "A wrapper of sindresorhus/screenfull.js for Angular.",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "fullscreen"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeeks/fullscreen.git"
+  },
+  "homepage": "https://angeeks.github.io/fullscreen",
+  "bugs": {
+    "url": "https://github.com/angeeks/fullscreen/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@angular/common": "^6.0.0",
+    "@angular/core": "^6.0.0"
+  }
+}
