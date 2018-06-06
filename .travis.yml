@@ -15,9 +15,15 @@ script:
 cache:
     directories:
       - node_modules
+before_deploy:
+  - cp README.md dist/angeeks/fullscreen
+  - cd dist/angeeks/fullscreen
 deploy:
-  - provider: pages
-    local-dir: dist/fullscreen
-    github-token: $github
-    skip-cleanup: true
+  - provider: npm
+    email: $npmEmail
+    api_key: $npm
+    skip_cleanup: true
     keep-history: true
+    tag: latest
+    on:
+      branch: release
