@@ -11,6 +11,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angeeks/globals": "0.0.3",
     "@angeeks/gtag": "0.0.1",
     "@angular/animations": "^6.0.2",
     "@angular/common": "^6.0.2",

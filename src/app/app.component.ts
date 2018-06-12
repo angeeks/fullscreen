@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { gtag } from '@angeeks/gtag';
+import { Gtag } from '@angeeks/gtag';
 import { Fullscreen } from '@angeeks/fullscreen';
 import { AppData } from './app.data';
 
